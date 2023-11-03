@@ -1,0 +1,11 @@
+
+
+
+.custom-img-container
+{
+	background-image: url(IMAGE_URL);
+	background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    height: 100%;
+}
