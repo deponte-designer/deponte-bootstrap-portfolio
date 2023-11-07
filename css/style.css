@@ -1,14 +1,13 @@
 
 
 
-.custom-img-container
-{
+/* .custom-img-container {
 	background-image: url(IMAGE_URL);
 	background-repeat: no-repeat;
     background-size: contain;
     background-position-x: center;
     height: 100%;
-}
+} */
 
 
 footer {
@@ -17,8 +16,10 @@ footer {
     height: 70px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    /* line-height: 60px; */
     background-color: #f5f5f5;
     margin-top: 50px;
+  }
+
+  .copyright {
+    background-color: #1a252f;
   }
