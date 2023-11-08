@@ -59,7 +59,7 @@
 
 .custom-card-img {
   width: 100%;
-  height: 30vh;
+  height: 50vh;
   object-fit: cover;
 }
 
@@ -76,7 +76,6 @@
 /* Skills Section */
 .custom-row-skill {
   padding: 3vh;
-  /* text-align: center; */
   align-items: center;
 }
 
@@ -96,12 +95,55 @@
   align-items: center;
 }
 
-.valueProp {
-  /* margin-top: 15px; */
-  /* margin-bottom: 15px; */
+/* About Me section */
+.custom-about {
+  padding: 4vh;
+  align-content: center;
 }
 
 
+.custom-about img {
+  max-width: 20vw;
+  padding: 7vh;
+  /* align-content: center; */
+  /* align-items: center; */
+  /* text-align: center; */
+  /* justify-content: center; */
+  border-radius: 100%;
+}
+
+.contact-content {
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact-content a {
+  text-decoration-line: none;
+  color: white;
+  margin-right: 35px;
+}
+
+.contact-content a:hover {
+  color: var(--bg-header);
+  font-weight: 600;
+}
+
+.contact-content a:after {
+  display: flex;
+  content: '';
+  border-bottom: solid 3px var(--hover-color);
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.contact-content a:hover:after {
+  transform: scaleX(1);
+}
+
+/* Footer section */
 footer {
   position: absolute;
   width: 100%;
@@ -119,14 +161,14 @@ footer {
 
 
 
-@media (max-width: 991.98px) { 
+@media (max-width: 991.98px) {
   .imageContainer {
     padding: 1vh;
     max-width: 5vw;
     /* min-width: 7vw; */
     align-items: center;
   }
- }
+}
 
 
 
@@ -150,4 +192,3 @@ footer {
   }
 
 }
-
