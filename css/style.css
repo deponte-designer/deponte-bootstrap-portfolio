@@ -1,4 +1,11 @@
-
+/* * ----- GLOBAL STYLE ----- */
+:root {
+  --bg-main: #eee2dc;
+  --bg-header: #116466;
+  --hover-color: #d1e8e2;
+  --header-color: #eee2dc;
+  --text-color: #2C3532;
+}
 
 /* Navigation bar */
 
@@ -21,17 +28,21 @@
   margin: 0px 15px;
 }
 
+/* Jumbotron  */
+.custom-hero-img {
+  background-image: url(../images/hero-bg-dark.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  /* height: calc(100vh - 76px); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* color: #f5f5f5; */
+  color: var(--header-color);
+}
 
-
-
-
-/* .custom-img-container {
-	background-image: url(IMAGE_URL);
-	background-repeat: no-repeat;
-    background-size: contain;
-    background-position-x: center;
-    height: 100%;
-} */
 
 
 footer {
