@@ -18,10 +18,10 @@
 
 <body>
 
-    <!-- Navigation bar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <!-- Navigation bar  bg-body-tertiary-->
+    <nav class="navbar navbar-dark bg-dark bg-opacity-75 navbar-expand-lg fixed-top customNav">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#"><img src="images/avatar-deponte.svg"/>dePonte</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -33,33 +33,21 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#scrollspyHeading1">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
+                        <a class="nav-link" href="#scrollspyHeading1">My Work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        <a class="nav-link" href="#scrollspyHeading2">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading3">About Me</a>
                     </li>
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                
             </div>
         </div>
     </nav>
+
+    
 
     <!-- Custom jumbotron -->
     <div class="p-5 mb-4 bg-body-tertiary rounded-3">
@@ -73,7 +61,7 @@
     </div>
 
     <!-- Work Section - Containers, Rows, and Cards -->
-    <div class="container-fluid">
+    <div class="container-fluid section-work" data-bs-spy="scroll" data-bs-target="#scrollspyHeading1" tabindex="0">
         <h2 id="scrollspyHeading1" class="display-6 fw-bold">My Work</h2>
         <div class="row">
             <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
@@ -127,9 +115,9 @@
     </div><!-- Close container fluid -->
 
      <!-- Skills Section -->
-     <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+     <div class="p-5 mb-4 bg-body-tertiary rounded-3 section-skills" data-bs-spy="scroll" data-bs-target="#scrollspyHeading2">
         <div class="container-fluid py-5 custom-img-container">
-            <h2 class="display-6 fw-bold">Skills</h2>
+            <h2 id="scrollspyHeading2" class="display-6 fw-bold">Skills</h2>
             <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in
                 previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to
                 your liking.</p>
@@ -141,7 +129,7 @@
     <div class="p-5 mb-4 .bg-secondary-subtle rounded-3">
         <!-- <div class="container-fluid py-5 custom-img-container"> -->
         <div class="p-3 mb-2 bg-secondary text-white">
-            <h1 class="display-6 fw-bold">About Me</h1>
+            <h1 id="scrollspyHeading3" class="display-6 fw-bold">About Me</h1>
             <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in
                 previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to
                 your liking.</p>
