@@ -55,7 +55,7 @@
         <div class="container-fluid py-5 custom-img-container">
             <h1 class="display-5 fw-bold">Welcome!</h1>
             <p class="col-md-8 fs-4">I'm Sofia, and I'm on a journey of reinvention and exploration. </p>
-            <a class="btn btn-primary custom-btn btn-lg" href="#scrollspyHeading3" role="button">More About Me</a>
+            <a class="btn btn-light btn-lg" href="#scrollspyHeading3" role="button">More About Me</a>
         </div>
     </div>
 
@@ -125,41 +125,91 @@
         data-bs-target="#scrollspyHeading2">
         <div class="container-fluid py-5 custom-img-container">
             <h2 id="scrollspyHeading2" class="display-6 fw-bold">Skills</h2>
-            <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in
+            <p class="col-md-10 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in
                 previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to
                 your liking.</p>
 
-            <div class="row">
-
-                <div class="cardContainer col-lg-3 col-md-4 col-sm-12">
-                    <div class="card custom-card">
-                        <img src="./images/html-logo.png" class="custom-card-img card-img-left img-fluid" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">HTML</h5>
-                            <h6 class="card-sub-title">HTML/CSS</h6>
-                            <p class="card-text">Semantic HTML-based Code Refactor for Horiseon Agency.</p>
-                            <a href="https://deponte-designer.github.io/horiseon-website-accessibility-optimization/"
-                                target="_blank" class="btn custom-btn btn-primary">Live Demo Project</a>
-                        </div>
-                    </div>
+            <!-- Row 1 -->
+            <div class="row valueProp custom-row-skill">
+                <div class="imageContainer col-lg-2 col-md-2 col-sm-2">
+                    <img src="images/html-logo.png" />
                 </div>
-
+                <div class="text col-lg-10 col-md-10 col-sm-10">
+                    <h4>HTML 5 75%</h4>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-success progress-bar-animated"
+                            role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
+                            aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit
+                        amet.
+                    </p>
+                </div>
             </div>
+            <!-- End row 1 -->
+
+            <!-- Row 2 -->
+            <div class="row valueProp custom-row-skill">
+                <div class="imageContainer col-lg-2 col-md-12 col-sm-12">
+                    <img src="images/css-logo.png" />
+                </div>
+                <div class="text col-lg-10 col-md-12 col-sm-12">
+                    <h4>CSS 3 45%</h4>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-success progress-bar-animated"
+                            role="progressbar" aria-label="Animated striped example" aria-valuenow="45"
+                            aria-valuemin="0" aria-valuemax="100" style="width: 45%"></div>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit
+                        amet.
+                    </p>
+                </div>
+            </div>
+            <!-- End row 2 -->
+
+            <!-- Row 3 -->
+            <div class="row valueProp custom-row-skill">
+                <div class="imageContainer col-lg-2 col-md-12 col-sm-12">
+                    <img src="images/javascript-logo.png" />
+                </div>
+                <div class="text col-lg-10 col-md-12 col-sm-12">
+                    <h4>JavaScript 5%</h4>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-success progress-bar-animated"
+                            role="progressbar" aria-label="Animated striped example" aria-valuenow="5" aria-valuemin="0"
+                            aria-valuemax="100" style="width: 5%"></div>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit
+                        amet.
+                    </p>
+                </div>
+            </div>
+            <!-- End row 3 -->
+
         </div><!-- Close container fluid -->
     </div><!-- Close skills section -->
 
     <!-- About Me Section -->
-    <div class="p-5 mb-4 .bg-secondary-subtle rounded-3">
+    <div class="container mb-4 .bg-secondary-subtle bg-secondary rounded-3">
         <!-- <div class="container-fluid py-5 custom-img-container"> -->
-        <div class="p-3 mb-2 bg-secondary text-white">
-            <h2 id="scrollspyHeading3" class="display-6 fw-bold">About Me</h2>
-            <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in
-                previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to
-                your liking.</p>
-            <button type="button" class="btn btn-outline-light">
-                <i class="bi bi-cloud-download-fill"></i>
-                Download my Resume!
-            </button>
+        <div class="row">
+            <div class="p-3 mb-2  text-white col-lg-8 col-md-8 col-sm-12">
+                <h2 id="scrollspyHeading3" class="display-6 fw-bold">About Me</h2>
+                <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one
+                    in
+                    previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to
+                    your liking.</p>
+                <button type="button" class="btn btn-outline-light">
+                    <i class="bi bi-cloud-download-fill"></i>
+                    Download my Resume!
+                </button>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 custom-about-img">
+                <img src="images/avatar.png" />
+            </div>
         </div>
     </div>
 
